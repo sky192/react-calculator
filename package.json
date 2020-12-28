@@ -5,6 +5,7 @@
   "main": ".eslintrc.js",
   "scripts": {
     "lint": "./node_modules/.bin/eslint --format codeframe .",
+    "dev": "./node_modules/.bin/webpack --progress --config webpack.dev.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,14 +19,19 @@
   },
   "homepage": "https://github.com/sky192/react-calculator#readme",
   "dependencies": {
-    "react": "^17.0.1"
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
     "eslint": "^7.16.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.21.5",
-    "webpack": "^5.11.0"
+    "webpack": "^5.11.0",
+    "webpack-cli": "^4.3.0"
   }
 }
