@@ -1,0 +1,30 @@
+{
+  "name": "react-calculator",
+  "version": "1.0.0",
+  "description": "## Instructions In the initial commit to this project you have been provided with only an ESLint config for a React project. Your task is to create an interactive React Calculator page that responds to user input.",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint --format codeframe .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sky192/react-calculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sky192/react-calculator/issues"
+  },
+  "homepage": "https://github.com/sky192/react-calculator#readme",
+  "dependencies": {
+    "react": "^17.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.16.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5"
+  }
+}
